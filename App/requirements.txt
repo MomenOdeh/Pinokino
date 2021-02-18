@@ -1,0 +1,10 @@
+flask-cors
+numpy
+newspaper3k
+sklearn
+pandas
+flask
+nltk
+gunicorn
+tensorflow
+langdetect
