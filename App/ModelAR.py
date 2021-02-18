@@ -27,8 +27,8 @@ from tensorflow.keras.callbacks import EarlyStopping
 from tensorflow.keras.preprocessing.sequence import pad_sequences
 
 #real = pd.read_csv('/content/gdrive/My Drive/fake-news/train_ArNews_1.tsv',sep='\t')
-real = pd.read_csv('/content/gdrive/My Drive/fake-news/True_Ar.csv',encoding="utf_8")
-fake = pd.read_csv('/content/gdrive/My Drive/fake-news/Fake_Ar.csv',encoding="utf_8")
+real = pd.read_csv('/datasetes/ar/True_Ar.csv',encoding="utf_8")
+fake = pd.read_csv('/datasetes/ar/Fake_Ar.csv',encoding="utf_8")
 
 real.shape
 real.head
