@@ -15,8 +15,10 @@ This project has four major parts :
 
 # Running the project on local machine
 
-Ensure that you are in the project home directory. Create the machine learning model by running below command -
+Ensure that you are in the project home directory. Create the machine learning models by running  - ModelAR.py & ModelENG.py
 
+OR: 
+Directly run on the pre-trained models.
 Run app.py using below command to start Flask API
 python app.py
 By default, flask will run on port 5000.
